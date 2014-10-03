@@ -5,7 +5,7 @@ Login with user "test", password "test".
 ----
 
 I stuck it up on Sourceforge in 2005, but was aparently aware (even then) how messy it was.
-It uses <script> tags with some vars in an embedded iframe for updates - the precursor to JSON over AJAX (it'd actually only take a few minor changes to get it working via AJAX). 
+It uses &lt;script&gt; tags with some vars in an embedded iframe for updates - the precursor to JSON over AJAX (it'd actually only take a few minor changes to get it working via AJAX). 
 
 I remember experimenting with long-polling (nowdays known as AJAX Push/COMET/HTTP Streaming) but I don't think it worked that well with browser tech at the time. 
 You could re-impliment it with about 5 lines of PHP, however - wrap the display code into a loop, and bypass that loop whenever the script is called with movement vars.
