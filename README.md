@@ -1,9 +1,15 @@
-This is a browser-based pseudo-3D multiplayer RPG from ~2002-2003. It was probably one of my first projects in PHP.
-It uses &lt;script&gt; tags inside a hidden iframe for updates, a common technique before XMLHTTPRequest.
+prengine
+========
+
+This is a browser-based pseudo-3D multiplayer RPG, written when I was first learning PHP (2002-2003).
+It uses &lt;script&gt; tags inside a hidden iframe for updates, a common technique before AJAX.
+
+**Warning:** There are several known SQL/XSS holes. I was ignorant of security practices and code cleanliness at the time. 
 
 ![Screenshot](/images/editor_textures_sea.png?raw=true)
 
-I've modified the DB from my 2005 SourceForge release and fixed a couple of SQL holes, but the rest is in its original sphagetti-code glory. 
+
+
 
 Setup the DB with:
 ```
